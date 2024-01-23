@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cardemosite.netlify.app/assests/css/font-awesome.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg">
+        <div class="dot">
+            <div class="header">
+                <div class="hamburger" onclick="openNav()">
+                    <div class="ham-one"></div>
+                    <div class="ham-two"></div>
+                    <div class="ham-three"></div>
+                </div>
+                <div class="responsive-nav" id="responsive-side">
+                    <a href="javascript:void(0)" onclick="closeNavibar()" class="close close-btn"></a>
+                    <ul class="responsive-navigation">
+                        <li class="menu-item"><a href="#">HOME</a></li>
+                        <li class="menu-item"><a href="#about" onclick="closeNavibar()" >ABOUT US</a></li>
+                        <li class="menu-item"><a href="#services" onclick="closeNavibar()" >SERVICES</a></li>
+                        <li class="menu-item"><a href="#gallery" onclick="closeNavibar()" >GALLERY</a></li>
+                        <li class="menu-item"><a href="#Book" onclick="closeNavibar()" >BOOK</a></li>
+                    </ul>
+                </div>
+                <div class="nav-portion">
+                    <div class="left-head">
+                        <a href="index.html">
+                            <h1>TRAVEL AGENCY</h1>
+                        </a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#home"><span>HOME</span></a></li>
+                            <li><a href="#about"><span>ABOUT US</span></a></li>
+                            <li><a href="#services"><span>SERVICES</span></a></li>
+                            <li><a href="#gallery"><span>GALLERY</span></a></li>
+                            <li><a href="#book"><span>BOOK</span></a></li>
+                        </ul>
+                    </nav>
+                    <form action="" class="top-form">
+                        <input type="text" placeholder="search place" required>
+                        <button><i class="las la-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="banner">
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h4 class="top-text">Are you ready to embark on the adventure of a lifetime?</h4>
+                            <h2 class="bottom-text"> Explore the world with us. </h2>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4 class="top-text">Adventures!
+
+                                🌍 Explore. Discover. Wander.</h4>
+                            <h2 class="bottom-text">we believe in journey . </h2>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination bswiper-pagination"></div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="body">
+
+        <h3 class="services" id="services"></h3>
+        <h3 class="services">OUR SERVICES</h3>
+        <div class="contents">
+            <div class="left-contents">
+                <div class="top-content">
+                    <i class="las la-cog"></i>
+                    <p>Personalized Trip Planning:</p>
+                    <span> Our expert team is here to turn your travel dreams into a personalized reality, 
+                              curating an experience that goes beyond the ordinary..</span>
+                </div>
+                <div class="bottom-content">
+                    <i class="las la-cogs"></i>
+                    <p>Transportation Services:</p>
+                    <span>Lwe understand that the journey is just as important as the destination. That's why our commitment to providing exceptional Transportation Services 
+                        ensures that every leg of your adventure is as seamless as it is enjoyable..</span>
+                </div>
+            </div>
+            <div class="mid-content">
+                <img src="Images/whatapp.jpg" alt="">
+            </div>
+            <div class="right-contents">
+                <div class="top-content">
+                    <i class="las la-wrench"></i>
+                    <p>Guided Tours and Activities:</p>
+                    <span>We believe that the heart of any memorable travel experience lies in the details, and our expertly curated
+                         excursions are designed to immerse you in the rich tapestry of each destinations.</span>
+                </div>
+                <div class="bottom-content">
+                    <i class="las la-bars"></i>
+                    <p>Accommodation Booking:</p>
+                    <span>our Accommodation Booking service is dedicated to ensuring that every night of your journey is a destination in itself. Choose from a curated selection of accommodations ranging from boutique hotels to luxurious resorts,
+                         each carefully selected to reflect the unique character of your destination. .</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-bg" id="about">
+            <h3 class="about">About Us</h3>
+            <div class="about-contents">
+                <div class="about-write">
+                    <div>
+                        <p> where your journey begins! We are more than just a travel agency; 
+                            we are your partners in creating unforgettable experiences and turning your travel
+                             dreams into reality..</p>
+                        <span>we are fueled by a passion for exploration and a commitment to delivering exceptional travel experiences. Our team of dedicated
+                             professionals shares a love for discovering new destinations, cultures, and creating memories that last a lifetime..</span>
+                        <ul>
+                            <li> <i class="fas fa-arrow-right"> </i>
+                                United States
+                            </li>
+                            <li> <i class="fas fa-arrow-right"></i>
+                                Mexico
+                            </li>
+                            <li> <i class="fas fa-arrow-right"></i>
+                                Brazil
+                            </li>
+                            <li> <i class="fas fa-arrow-right"></i>
+                                Norway
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-video">
+                    <!-- <img src="images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg" height="300px" alt=""> -->
+                    <img src="Images/ima.jpg" width="500",height="500" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <h3 class="services">Our Gallery</h3>
+            <div class="grid-container">
+                <div class="grid-one">
+                    <img src="images/pic4.jpeg" alt="">
+                </div>
+                <div class="grid-two">
+                    <img src="images/trval.jpg" alt="">
+                </div>
+                <div class="grid-three">
+                    <img src="images/pic5.webp" alt="">
+                </div>
+                <div class="grid-four">
+                    <img src="images/tr.jpg" alt="">
+                </div>
+                <div class="grid-five">
+                    <img src="images/tr2.jpg" alt="">
+                </div>
+                <div class="grid-six">
+                    <img src="images/pic10.jpg" alt="">
+                </div>
+                <div class="grid-seven">
+                    <img src="images/pic11.jpg" alt="">
+                </div>
+                <div class="grid-eight">
+                    <img src="images/pic6.jpg" alt="">
+                </div>
+                <div class="grid-nine">
+                    <img src="images/pic7.jpg" alt="">
+                </div>
+                <div class="grid-ten">
+                    <img src="images/pic9.jpg" alt="">
+                </div>
+                <div class="grid-eleven">
+                    <img src="images/pic8.jpg" alt="">
+                </div>
+                <div class="grid-twelve">
+                    <img src="images/aus.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+       
+
+                <div class="swiper-pagination cswiper-pagination"></div>
+
+            </div>
+                 <i class="las la-quote-left"></i>
+        </div>
+
+        <div class="contact-sec" id="book">
+            <h3 class="services">BOOK TICKET</h3>
+            <div class="con-contents">
+                <div class="info">
+                    <p>CONTACT INFO</p>
+                    <div class="icons">
+                        <i class="las la-map-marker-alt"></i>
+                        <address>178k venue, 6th block,
+                            paris City.</address>
+                    </div>
+                    <div class="icons">
+                        <i class="las la-envelope"></i>
+                        <a href="mailto: email@example.com">Travel.landing2023@gmail.com</a>
+                    </div>
+                    <div class="icons">
+                        <i class="las la-phone"></i>
+                        <a href="tel:+91-56677896743">+9156677896743</a>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="/action_page.php">
+                        <label for="name">YOUR NAME</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="email">YOUR email</label>
+                        <input type="text" id="email" name="email">
+
+                        <label for="message">YOUR TRAVEL PLACE</label>
+                        <input type="text" id="message">
+
+
+                        <label for="phone no">YOUR PHONE NO</label>
+                        <input type="text" id="phone no"> <br>
+<br>
+                        <button>BOOK NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    </div>
+<br>
+    <div class="footer">
+        <p>© 2023 TRAVEL AGENCY. All rights reserved | Designed by <span>SANTHANALAKSHMI</span></p>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("responsive-side").style.width = "100%";
+            // document.getElementById("responsive-side").style.height = "100%";
+        }
+        function closeNavibar() {
+            document.getElementById("responsive-side").style.width = "0%";
+            // document.getElementById("responsive-side").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
